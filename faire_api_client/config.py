@@ -1,7 +1,7 @@
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    api_version: str = 'v2'
-    base_url: str = 'https://www.faire.com/external-api'
+    API_VERSION: str = 'v2'
+    BASE_URL: str = 'https://www.faire.com/external-api'
 
 settings = Settings()  # Ensure to call the settings instance
