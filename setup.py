@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="faire-api-client",
+    name="faire_api_client",
     version="0.0.1",
     author="Steven Athouel",
     author_email="sathouel@gmail.com",
