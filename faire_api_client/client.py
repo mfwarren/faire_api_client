@@ -30,7 +30,7 @@ class Client:
         }
 
     def _authenticate(self, access_token):
-        
+
         self._session.headers.update({
             'X-FAIRE-ACCESS-TOKEN': access_token
         })
